@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "email": "student@chefdoor.com",
+      "name": "Billy Buddy",
+      "password": "123",
+      "role": "User"
+    },
+    {
+      "id": "demo-chef",
+      "email": "maya@chefdoor.com",
+      "name": "Chef Maya",
+      "password": "123",
+      "role": "Chef",
+      "chefProfileId": "chef-1"
+    },
+    {
+      "id": "u-u3gsbzt",
+      "email": "raghuvuyyuri@gmail.com",
+      "name": "raghu",
+      "password": "#Raghu206",
+      "role": "User"
+    }
+  ],
+  "chefs": [
+    {
+      "id": "chef-1",
+      "name": "Chef Priya Nair",
+      "photoUrl": "https://images.unsplash.com/photo-1574085733277-851d9d856a3a?w=600&auto=format&fit=crop&q=80",
+      "rating": 4.9,
+      "specialties": [
+        "South Indian Tiffin",
+        "Traditional Malabar Festivities",
+        "Rayalaseema Ragi Sangati",
+        "Nattu Kodi Kura",
+        "Filter Coffee Delights"
+      ],
+      "pricePerHour": 550,
+      "experience": 8,
+      "serviceArea": "Indiranagar, Bengaluru",
+      "about": "With over 8 years of culinary excellence in high-end southern bistros, I bring authentic South Indian, Andhra, and signature Rayalaseema taste profiles directly to your home kitchen using freshly ground organic spices.",
+      "reviews": [
+        {
+          "id": "r-1",
+          "userName": "Aditya Goel",
+          "rating": 5,
+          "comment": "Chef Priya curated an exquisite traditional Malabar dinner for our leadership team. Outstanding curation and hygiene!",
+          "date": "2026-05-15"
+        },
+        {
+          "id": "r-2",
+          "userName": "Ritu Sen",
+          "rating": 5,
+          "comment": "Exceptionally neat, precise, and polite. Loved the organic filter coffee setup!",
+          "date": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "id": "chef-2",
+      "name": "Chef Anand Raju",
+      "photoUrl": "https://images.unsplash.com/photo-1577219491130-c838527e57be?w=600&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "specialties": [
+        "Nellore Chepala Pulusu",
+        "Rayalaseema Natukodi Pulusu",
+        "Gongura Chicken Curry",
+        "Andhra Thali Meals"
+      ],
+      "pricePerHour": 650,
+      "experience": 12,
+      "serviceArea": "Gachibowli, Hyderabad",
+      "about": "Native expert of Andhra and Rayalaseema hot grills and state dinner banquets. Bringing spicy rustic flavors, organic farm-fresh preparation, and top professional kitchen hygiene standard to your events.",
+      "reviews": [
+        {
+          "id": "r-3",
+          "userName": "Vikram Malhotra",
+          "rating": 5,
+          "comment": "The slow-cooked Nellore Pulusu was absolutely sensational. Highly professional kitchen setup.",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "id": "chef-3",
+      "name": "Chef Kavitha Reddy",
+      "photoUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "specialties": [
+        "Andhra Gongura Delicacies",
+        "Hyderabadi Dum Handi",
+        "Rayalaseema Spice Delights",
+        "Organic Millets Healthy Meals"
+      ],
+      "pricePerHour": 450,
+      "experience": 5,
+      "serviceArea": "Kundanbagh, Hyderabad",
+      "about": "Certified nutrition consultant and executive chef covering Rayalaseema and Andhra specialties. Focuses on regional wholesome grains, natural cold-pressed oil, and ancestral spice blends.",
+      "reviews": [
+        {
+          "id": "r-4",
+          "userName": "Nikhil Joshi",
+          "rating": 5,
+          "comment": "Superb healthy millet bowls and Andhra style. Exactly the diet-specific local catering we were searching for.",
+          "date": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "id": "chef-4",
+      "name": "Chef Rajesh Srinivasan",
+      "photoUrl": "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?w=400&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "specialties": [
+        "South Indian Fusion",
+        "Guntur Chilli Sizzlers",
+        "Coorg Pandi Curry Deluxe",
+        "Ambur Biryani Specialties"
+      ],
+      "pricePerHour": 750,
+      "experience": 15,
+      "serviceArea": "Jayanagar, Bengaluru",
+      "about": "Over 15 years as premium executive sous chef. Unmatched skill in organizing large-scale regional South Indian, Coorg, and elite Tamilian Ambur wedding banquets directly inside your private kitchen.",
+      "reviews": [
+        {
+          "id": "r-5",
+          "userName": "Siddharth Mehra",
+          "rating": 5,
+          "comment": "The South Indian fusion entrees are of international standard. Exceptionally clean and professional cutting boards.",
+          "date": "2026-05-28"
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1",
+      "userId": "demo-user",
+      "userName": "Billy Buddy",
+      "chefId": "chef-1",
+      "chefName": "Chef Maya",
+      "cookingType": "Birthday Party Sweets",
+      "date": "2026-06-05",
+      "startTime": "14:00",
+      "duration": 3,
+      "address": "123 Happy Street, Sparkle Ville",
+      "specialInstructions": "Please make the cupcakes extra colorful!",
+      "totalPrice": 75,
+      "status": "Pending",
+      "paymentMethod": "UPI",
+      "paymentStatus": "Unpaid"
+    }
+  ]
+}

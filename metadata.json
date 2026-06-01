@@ -1,0 +1,6 @@
+{
+  "name": "ChefDoor",
+  "description": "A clean, friendly, and professional app to book professional chefs, designed to be easy for everyone including children.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
