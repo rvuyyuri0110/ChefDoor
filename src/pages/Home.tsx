@@ -16,53 +16,44 @@ export default function Home({ chefs, onSelectChef, setPage }: HomeProps) {
 
   return (
     <div className="flex flex-col min-h-screen px-4 md:px-8 py-6 space-y-12">
-      {/* Hero Section - Apple Aesthetics with 40px rounded corners and responsive Grid */}
-      <section className="relative bg-emerald-50 rounded-4xl p-6 sm:p-10 md:p-16 overflow-hidden max-w-7xl mx-auto w-full border border-emerald-100/50 shadow-xs">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10 w-full">
-          <div className="lg:col-span-7 flex flex-col justify-center">
-            <div className="inline-flex items-center gap-2 bg-white text-emerald-800 text-[10px] font-bold px-3 py-1.5 rounded-full border border-emerald-200/40 mb-6 uppercase tracking-wider shadow-2xs self-start">
-              <span>Professional In-Home Cooking & Meals</span>
-            </div>
-            
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-5 font-display">
-              Book Verified <span className="text-emerald-600">Private Chefs</span> <br/>
-              for Your Home Kitchen
-            </h1>
-            
-            <p className="text-slate-600 text-sm md:text-base leading-relaxed max-w-lg mb-8 font-medium">
-              Find handpicked professional home chefs to prepare fresh, delicious meals in your kitchen. Perfect for family dinners, weekly meal prep, or cozy celebrations.
-            </p>
-
-            <div className="flex flex-col sm:flex-row items-center gap-4">
-              <button
-                onClick={() => setPage("browse")}
-                className="w-full sm:w-auto px-8 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-2xl shadow-lg shadow-emerald-600/15 hover:shadow-xl transition-all active:scale-95 text-xs uppercase tracking-wider cursor-pointer"
-                id="hero-browse"
-              >
-                Choose Verified Chefs
-              </button>
-              <button
-                onClick={() => setPage("about")}
-                className="w-full sm:w-auto px-8 py-3.5 bg-white hover:bg-emerald-50 text-emerald-800 border-2 border-slate-100 font-bold rounded-2xl transition-all active:scale-95 text-xs uppercase tracking-wider cursor-pointer"
-                id="hero-how-it-works"
-              >
-                Our Standards
-              </button>
-            </div>
+      {/* Hero Section - Apple Aesthetics with Floating Accents & 40px rounded corners */}
+      <section className="relative bg-emerald-50 rounded-4xl p-8 md:p-16 overflow-hidden flex flex-col justify-center min-h-[360px] max-w-7xl mx-auto w-full border border-emerald-100/50 shadow-xs">
+        <div className="relative z-10 max-w-2xl">
+          <div className="inline-flex items-center gap-2 bg-white text-emerald-800 text-[10px] font-bold px-3 py-1.5 rounded-full border border-emerald-200/40 mb-6 uppercase tracking-wider shadow-2xs">
+            <span>Professional In-Home Cooking & Meals</span>
           </div>
+          
+          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-5 font-display">
+            Book Verified <span className="text-emerald-600">Private Chefs</span> <br/>
+            for Your Home Kitchen
+          </h1>
+          
+          <p className="text-slate-600 text-sm md:text-base leading-relaxed max-w-lg mb-8 font-medium">
+            Find handpicked professional home chefs to prepare fresh, delicious meals in your kitchen. Perfect for family dinners, weekly meal prep, or cozy celebrations.
+          </p>
 
-          {/* Professional Chef Picture Card - Beautifully responsive */}
-          <div className="lg:col-span-5 flex justify-center items-center w-full mt-6 lg:mt-0">
-            <div className="relative w-full max-w-[340px] aspect-square rounded-3xl overflow-hidden shadow-xl border-4 border-white rotate-2 bg-slate-100 hover:rotate-0 transition-transform duration-300">
-              <img 
-                src="https://images.unsplash.com/photo-1577219491130-c838527e57be?w=600&auto=format&fit=crop&q=80" 
-                alt="Professional Executive Chef in Modern Kitchen" 
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
-            </div>
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <button
+              onClick={() => setPage("browse")}
+              className="w-full sm:w-auto px-8 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-2xl shadow-lg shadow-emerald-600/15 hover:shadow-xl transition-all active:scale-95 text-xs uppercase tracking-wider cursor-pointer"
+              id="hero-browse"
+            >
+              Choose Verified Chefs
+            </button>
+            <button
+              onClick={() => setPage("about")}
+              className="w-full sm:w-auto px-8 py-3.5 bg-white hover:bg-emerald-50 text-emerald-800 border-2 border-slate-100 font-bold rounded-2xl transition-all active:scale-95 text-xs uppercase tracking-wider cursor-pointer"
+              id="hero-how-it-works"
+            >
+              Our Standards
+            </button>
           </div>
         </div>
+
+        {/* Beautiful Elegant Floating Illustration Mockup Shapes from Design HTML */}
+        <div className="absolute right-12 md:right-24 top-1/2 -translate-y-1/2 w-52 h-52 bg-emerald-200/40 rounded-full opacity-60 hidden md:block"></div>
+        <div className="absolute right-28 md:right-36 top-12 w-20 h-20 bg-emerald-300/30 rounded-3xl rotate-12 hidden md:block border-2 border-emerald-100/20"></div>
+        <div className="absolute right-2 top-1/3 w-8 h-8 bg-emerald-400/20 rounded-full hidden md:block"></div>
       </section>
 
       {/* Onboarding / Simple Rules Section */}
