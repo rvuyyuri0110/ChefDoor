@@ -1,20 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚪 ChefDoor
 
-# Run and deploy your AI Studio app
+> **Delicious meals from local chefs, delivered right to your doorstep.** 🍽️✨
 
-This contains everything you need to run your app locally.
+ChefDoor connects home chefs, culinary enthusiasts, and local restaurants directly with food lovers in their neighborhood. Discover handcrafted dishes, order seamlessly, and experience gourmet meals made with love.
 
-View your app in AI Studio: https://ai.studio/apps/8d5da12d-4d46-489e-bc48-bd9270656bd0
+---
 
-## Run Locally
+## 🌟 Features
 
-**Prerequisites:**  Node.js
+- 👨‍🍳 **Chef Profiles:** Explore local chefs, their specialties, and customer reviews.
+- 📜 **Interactive Menus:** Browsable, real-time updated daily and weekly specials.
+- 🛒 **Seamless Ordering:** Add meals to your cart, customize preferences, and checkout easily.
+- 📍 **Live Tracking:** Track your food from the kitchen to your doorstep in real-time.
+- 💳 **Secure Payments:** Multiple payment gateways supported for quick checkout.
+- ⭐ **Ratings & Reviews:** Leave feedback and save your favorite local cooks.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+### Frontend 💻
+- ⚡ **React.js / React Native** – Dynamic, responsive UI across Web & Mobile
+- 🎨 **Tailwind CSS** – Sleek and modern styling
+- 🚦 **React Router / React Navigation** – Smooth client-side routing
+
+### Backend ⚙️
+- 🟢 **Node.js & Express** – Scalable REST APIs
+- 🍃 **MongoDB** – Flexible, document-based database
+- 🔒 **JWT & OAuth** – Secure authentication
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get a local copy up and running.
+
+### 📋 Prerequisites
+
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16.x or higher) 📦
+- [Git](https://git-scm.com/) 🐙
+- [MongoDB](https://www.mongodb.com/) (Local or Atlas cloud instance) 🍃
+
+---
+
+### 📥 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/your-username/chefdoor.git](https://github.com/your-username/chefdoor.git)
+   cd chefdoor
